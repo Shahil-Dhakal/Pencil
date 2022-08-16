@@ -1,0 +1,63 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container
+{
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 50%;
+}
+
+.top
+{
+    /* align-items: center; */
+    margin-top: 150px;
+    background-color: pink;
+    height: 30px;
+    width: 20px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    /* position: absolute; */
+}
+
+.silver
+{
+    /* position: relative; */
+    background-color: silver;
+    height: 15px;
+    width: 20px;
+    margin-top: 0px;
+}
+
+.body
+{
+    /* position: relative; */
+    width: 20px;
+    height: 450px;
+    background-color: yellow;
+    /* margin-top: 0px; */
+    /* margin-bottom: 0; */
+    /* padding-bottom: 0; */
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
+}
+
+.sharp
+{
+    /* background: radial-gradient(black, red); */
+    background-color: brown;
+    height: 30px;
+    width: 20.5px;
+    border: 1px solid brown;
+    /* border-top-right-radius: 0; */
+    clip-path: polygon(100% 0%, 0% 0%, 50% 100%);
+}
